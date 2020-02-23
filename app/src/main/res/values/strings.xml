@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BusStopDB</string>
+    <string name="implement_recyclerview_here">implement recyclerview here</string>
+</resources>
