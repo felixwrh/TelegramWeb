@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".AddBusStopActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Stop Code"/>
+
+    <EditText
+        android:id="@+id/editTextBusStopCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter bus stop code"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Road Name"/>
+
+    <EditText
+        android:id="@+id/editTextRoadName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter road name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Stop Description"/>
+
+    <EditText
+        android:id="@+id/editTextBusStopDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter bus description"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"/>
+</LinearLayout>
